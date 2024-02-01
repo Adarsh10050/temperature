@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My weather website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="weather.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="search-box">
+        <i class='bx bx-map'></i>
+        <input type="text" placeholder="Enter your location">
+        <button class="bx bx-search"></button>
+      </div>
+
+      <div class="weather-box">
+        <div class="box">
+          <div class="ifo-weather">
+            <div class="weather">
+              <img src="sun_with_cloud.jpeg">
+              <p class="temperature">16<span>°C</span></p>
+              <p class="description">Broken Clouds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="weather-details">
+        <div class="humidity">
+          <i class='bx bx-water'></i>
+          <div class="text">
+            <div class="info-humidity">
+              <span>0%</span>
+            </div>
+            <p>Humidity</p>
+          </div>
+        </div>
+
+
+        <div class="wind">
+          <i class='bx bx-wind'></i>
+          <div class="text">
+            <div class="info-wind">
+              <span>0km/h</span>
+            </div>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+  </body>
+</html>
